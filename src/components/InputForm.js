@@ -33,8 +33,6 @@ export default function InputForm(props) {
     };
 
     props.getInvestmentData(InvestmentData);
-
-    // console.log(InvestmentData);
     props.calulateUserData();
   };
 
